@@ -39,7 +39,7 @@ export const CalendarPage = () => {
   }
   
   const onViewChanged = (event) => {
-    console.log({viewChange: event});
+    //console.log({viewChange: event});
     localStorage.setItem('lastView', event);
     setLastView(event);
   }
